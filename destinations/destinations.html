@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Destinations | Travel & Tourism</title>
+  <link rel="stylesheet" href="/destinations/destinations.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">🌴 Travel & Tourism</div>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a class="active" href="destinations.html">Destinations</a>
+      <a href="/packages/packages.html">Packages</a>
+      <a href="/contact/contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Our Destinations</h1>
+    <p>Explore the most beautiful places in India</p>
+  </section>
+
+  <!-- Destinations -->
+  <section class="destinations">
+    <div class="dest-container">
+
+      <div class="dest-card">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" />
+        <h3>Goa</h3>
+        <p>Beaches, nightlife & relaxation</p>
+        <button onclick="viewPlace('Goa')">View More</button>
+      </div>
+
+      <div class="dest-card">
+        <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" />
+        <h3>Manali</h3>
+        <p>Mountains & adventure sports</p>
+        <button onclick="viewPlace('Manali')">View More</button>
+      </div>
+
+      <div class="dest-card">
+        <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944" />
+        <h3>Kerala</h3>
+        <p>Backwaters & nature</p>
+        <button onclick="viewPlace('Kerala')">View More</button>
+      </div>
+
+      <div class="dest-card">
+        <img src="https://images.unsplash.com/photo-1548013146-72479768bada" />
+        <h3>Jaipur</h3>
+        <p>Royal heritage & culture</p>
+        <button onclick="viewPlace('Jaipur')">View More</button>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="/destinations/destinations.js"></script>
+</body>
+</html>

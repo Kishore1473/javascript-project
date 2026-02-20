@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel & Tourism</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body><header class="navbar">
+  <div class="logo">🌴 Travel & Tourism</div>
+  <nav>
+    <a class="active" href="#">Home</a>
+    <a href="/destinations/destinations.html">Destinations</a>
+    <a href="/packages/packages.html">Packages</a>
+    <a href="/contact/contact.html">Contact</a>
+  </nav>
+  <div class="search">
+    <input type="text" id="search" placeholder="Search packages..." />
+    <button id="searchBtn">Search</button>
+  </div>
+  
+</header><section class="hero">
+  <div class="hero-content">
+    <h1>Explore The World</h1>
+    <p>Find your perfect holiday package</p>
+    <button class="cta">Explore Now</button>
+  </div>
+</section>
+<br>
+<h2 class="h2">Popular Packages</h2>
+
+<section class="packages" id="packages">
+
+  <div class="package-container">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Goa">
+      <div class="card-content">
+        <h3>Goa Getaway</h3>
+        <p>3 Nights / 4 Days</p>
+        <p class="price">$₹4999</p>
+        <button onclick="bookNow('Goa Getaway',299)">Book Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="Manali">
+      <div class="card-content">
+        <h3>Manali Adventure</h3>
+        <p>4 Nights / 5 Days</p>
+        <p class="price">₹6999</p>
+        <button onclick="bookNow('Manali Adventure',399)">Book Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/images/kerala image.jpg" alt="Kerala">
+      <div class="card-content">
+        <h3>Kerala Backwaters</h3>
+        <p>2 Nights / 3 Days</p>
+        <p class="price">₹3499</p>
+        <button onclick="bookNow('Kerala Backwaters',349)">Book Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1587474260584-136574528ed5" alt="Jaipur">
+      <div class="card-content">
+        <h3>Jaipur Heritage</h3>
+        <p>3 Nights / 4 Days</p>
+        <p class="price">₹5999</p>
+        <button onclick="bookNow('Jaipur Heritage',279)">Book Now</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+<script src="/script.js"></script></body>
+</html>
