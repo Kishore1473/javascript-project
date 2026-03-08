@@ -1,10 +1,12 @@
 Travel & Tourism Website
 
 Project Description
+
 The Travel & Tourism Website is a simple web application developed using HTML, CSS, and JavaScript. This project helps users explore different travel destinations and holiday packages. Users can search for travel packages, view details, and simulate booking through an interactive interface.
 The website provides a clean design and responsive layout to improve user experience while browsing travel destinations.
 
 Features
+
 Responsive homepage with navigation menu
 Destinations / Packages section with travel cards
 Search functionality to find packages
